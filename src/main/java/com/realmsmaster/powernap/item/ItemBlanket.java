@@ -1,5 +1,6 @@
 package com.realmsmaster.powernap.item;
 
+import com.realmsmaster.powernap.creativetab.PowerNapCreativeTab;
 import net.minecraft.entity.Entity;
 import  net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
@@ -12,6 +13,7 @@ public class ItemBlanket extends PowerNapItem {
     public ItemBlanket(){
         super();
         this.setUnlocalizedName("blanket");
+
     }
 
     /*

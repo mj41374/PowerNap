@@ -1,5 +1,6 @@
 package com.realmsmaster.powernap.block;
 
+import com.realmsmaster.powernap.creativetab.PowerNapCreativeTab;
 import com.realmsmaster.powernap.reference.Textures;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -17,6 +18,7 @@ public class PowerNapBlock extends Block
     public PowerNapBlock(Material material)
     {
         super(material);
+        this.setCreativeTab(PowerNapCreativeTab.PowerNap_TAB);
     }
 
     //This is an alternate constructor that specifies a default material if none is provided in the constructor above

@@ -1,5 +1,6 @@
 package com.realmsmaster.powernap.item;
 
+import com.realmsmaster.powernap.creativetab.PowerNapCreativeTab;
 import com.realmsmaster.powernap.reference.Textures;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -18,7 +19,7 @@ public class PowerNapItem extends Item
     {
         super();
         this.maxStackSize = 1;
-        //this.setCreativeTab()
+        this.setCreativeTab(PowerNapCreativeTab.PowerNap_TAB);
         this.setNoRepair();
     }
 

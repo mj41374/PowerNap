@@ -1,2 +1,5 @@
 #Item localizations
 item.powernap:blanket.name=Blanket
+
+#Tab localization
+itemGroup.powernap=Power Nap
