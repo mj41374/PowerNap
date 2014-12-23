@@ -30,7 +30,7 @@ public class PowerNapItem extends Item
     public String getUnlocalizedName()
     {
         /*
-        Minecraft calls these like: item.PowerNap:Blanket.name
+        Minecraft calls items using format: item.PowerNap:Blanket.name
          */
         return String.format("item.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }

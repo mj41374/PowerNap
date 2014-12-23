@@ -1,5 +1,6 @@
 package com.realmsmaster.powernap;
 
+import com.realmsmaster.powernap.init.ModBlocks;
 import com.realmsmaster.powernap.init.ModItems;
 import com.realmsmaster.powernap.proxy.IProxy;
 import com.realmsmaster.powernap.reference.Reference;
@@ -37,6 +38,9 @@ public class PowerNap {
 
         //Here we're going to init our items in this mod
         ModItems.init();
+
+        //Here we're going to init our blocks in this mod
+        ModBlocks.init();
 
         //Here I'm going to try to test logging
         LogHelper.info("Pre Init Complete -- Items Loaded Captain!");
